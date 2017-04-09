@@ -1,0 +1,113 @@
+@media screen and (max-width: 1200px){
+    body .bx-wrapper{
+        margin: 0;
+    }
+    .slider-content{
+        min-width: 1000px;
+    }
+    .slider-content h1{
+        font-size: 40px;
+    }
+    ul.our-team_employees li{
+        width: 45%;
+    }
+    .contact_contact_all,
+    .contact_contact_all p,
+    .contact_contact_all h2{
+        display: block;
+        text-align: center;
+    }
+    footer form{
+        display: block;
+        margin: 0 auto;
+    }
+    footer form input{
+        display: block;
+        margin: 10px auto;
+    }
+    textarea{
+        width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+@media screen and (max-width: 920px){
+    .slider-content {
+        min-width: 800px;
+    }
+    ul.our-team_employees li{
+        display: block;
+        text-align: center;
+        margin: 40px 0;
+        padding: 0 30px;
+        width: 100%;
+    }
+    .plans .container div{
+        display: block;
+        width: 50%;
+        margin: 50px auto;
+    }
+}
+@media screen and (max-width: 720px){
+    .menu{
+        display: none;
+    }
+    #menu-icon{
+        display: inline-block;
+        float: right;
+        font-size: 30px;
+        margin: 20px 20px 0 0;
+        color: #49cbcd;
+    }
+    .logo{
+        margin: 20px 0 0 20px;
+    }
+    nav ul.menu li{
+        display: block;
+        text-align: center;
+    }
+    nav{
+        float: none;
+        overflow: auto;
+    }
+    nav ul li a{
+        padding: 10px;
+    }
+    nav ul li a:hover{
+        background: inherit;
+        border-bottom: none;
+    }
+    .slider-content {
+        min-width: 500px;
+    }
+}
+@media screen and (max-width: 720px){
+    .slider-content h1{
+        font-size: 30px;
+    }
+    .slider-content p{
+        font-size: 15px;
+    }
+    a.read-more {
+        padding: 10px 20px;
+        margin: 87px 0 0 0;
+        font: 15px open_sansbold;
+    }
+}
+@media screen and (max-width: 500px){
+    .slider-content {
+        min-width: 300px;
+    }
+    .slider-content h1{
+        font-size: 20px;
+    }
+    .slider-content p{
+        font-size: 10px;
+    }
+    a.read-more{
+        margin: 110px 0 0 0;
+    }
+    .plans .container div{
+        width: 80%;
+    }
+}
